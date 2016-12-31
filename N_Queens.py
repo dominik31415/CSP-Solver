@@ -5,7 +5,7 @@
 # In practice you only need Graph() and Solver()
 from CSPmain import *
 
-N = 12 #size of chessboard
+N = 8 #size of chessboard
 # The constraint problem is modelled as a discrete binary graph, i.e. variables are represented in nodes together with
 # their allowed values (i.e. their domains). The constraints are modelled as the edges of the graph, given as Boolean functions.
 # Nodes can be addressed via keys, which can be any immutable data type.
